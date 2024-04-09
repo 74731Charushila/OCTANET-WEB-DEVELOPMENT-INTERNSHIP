@@ -1,0 +1,57 @@
+/* search in google => google font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* anchor tag is used to connect web pages */
+header a{
+    color:#666 !important;
+    text-transform: uppercase;
+}
+header a:hover{
+    color:#FE980F !important;
+}
+.banner{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* carousel =>slidding banner */
+
+.footer{
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.footer a{
+    color:grey;
+    padding-left: 0;
+}
+.footer a.hover{
+    color:rgb(123, 124, 122);
+}
+
+/* media query => based on requirement it is used*/
+@media screen and (max-width:600px){
+    .logo{
+        text-align: center;
+    }
+    /* link content is in center */
+    .top-menu{
+        justify-content: center !important;
+    }
+    .footer .col-6{
+        padding: left 10%;
+        padding-bottom: 10%;
+
+    }
+}
+
